@@ -36,3 +36,6 @@ function getUsersNames(users) {
   }
   return names;
 };
+
+console.log(getUserAverageAge(users));
+console.log(getUsersNames(users));
