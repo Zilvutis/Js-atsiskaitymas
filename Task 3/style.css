@@ -59,3 +59,22 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+#thead-style {
+  padding: 10px;
+  background-color: #474747;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#usersBox {
+  margin-top: 25px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(215, 215, 215);
+}
+
+tbody {
+  font-size: 20px;
+}

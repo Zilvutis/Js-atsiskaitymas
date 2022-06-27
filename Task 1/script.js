@@ -8,3 +8,17 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+"use strict"
+
+document.getElementById("submit-btn").addEventListener("click", convertWeight);
+
+function convertWeight(event) {
+  event.preventDefault();
+  let weight = document.getElementById("search").value;
+    const lb = Number(weight) * 2.2046;
+    const g = Number(weight) / 0.0010000;
+    const oz = Number(weight) * 35.274;
+    const result = `Svarai (lb): ${lb} <br> Gramai (g): ${g} <br> Uncijos (oz): ${oz}`;
+
+    document.getElementById("output").innerHTML = result;
+};
