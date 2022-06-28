@@ -37,5 +37,10 @@ function getUsersNames(users) {
   return names;
 };
 
+//buvo galima naudoti foreach ar map metodus, pvz:
+// function getUsersNames(users) {
+// return users.map((user) => user.name)
+// };
+
 console.log(getUserAverageAge(users));
 console.log(getUsersNames(users));

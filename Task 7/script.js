@@ -18,3 +18,6 @@ function showObjectKeys(obj) {
 };
 
 showObjectKeys(audi);
+
+// trūksta išvedimo :) 
+console.log(showObjectKeys(audi))

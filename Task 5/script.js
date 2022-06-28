@@ -43,3 +43,8 @@ function filterAdults(users) {
 
 console.log(filterDogOwers(users));
 console.log(filterAdults(users));
+
+// //abiem atvejais buvo galima naudoti filter metodą, pvz:
+// // function filterDogOwers(users) {
+// return users.filter((user) => user.hasDog)
+// };
