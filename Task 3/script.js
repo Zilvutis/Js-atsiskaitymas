@@ -14,6 +14,7 @@ turėti bent minimalų stilių ir būti responsive;
 
 const ENDPOINT = "https://api.github.com/users";
 
+//šis užrašymas jau dokumento krovimo metu panaikina puslapyje turintį būti tekstą. innerHTML turėtų būti panaudotas tik lentelės formavimo metu arba kitoje funkcijoje prieš tai
 const output = document.getElementById("output");
 output.innerHTML = `
 <table id="usersBox" style="display: none;" border="1px solid black" width="100%">

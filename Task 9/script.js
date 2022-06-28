@@ -18,6 +18,9 @@ function Movie(title, director, budget) {
 };
 
     Movie.prototype.wasExpensive = function () {
+
+        //return true false tipo if`ui tinka tiesiog
+        // return this.budget > 100000000
         if (this.budget > 100000000) {
             return true;
         } else {
@@ -27,3 +30,5 @@ function Movie(title, director, budget) {
 
     let movie = new Movie('Šrekas', 'Andrew Adamson', 500000);
     console.log(movie.wasExpensive());
+
+// labiau es6 parodytų ir arrow funcijų naudojimas
